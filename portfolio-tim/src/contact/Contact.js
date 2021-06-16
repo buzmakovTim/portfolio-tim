@@ -11,7 +11,12 @@ export const Contact = () => {
                     <h2>Contact</h2>
                 </div>
                 <div className={style.contactForm}>
-                    Contact form
+                    <input placeholder='Name'/>
+                    <input placeholder='E-mail'/>
+                    <textarea placeholder='You message'/>
+                </div>
+                <div className={style.sendMessage}>
+                    <span>SEND MESSAGE</span>
                 </div>
             </div>
         </div>

@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-bottom: 60px;
 }
 
 /* .work:hover {
@@ -66,4 +67,11 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+@media screen and (max-width: 900px) {
+    .work {
+        /* width: 400px; */
+        /* height: 450px; */
+        width: 90%;
+    }
 }

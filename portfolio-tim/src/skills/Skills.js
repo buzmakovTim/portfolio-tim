@@ -7,21 +7,26 @@ export const Skills = () => {
     return (
         <div className={style.skills}>
             <div className={style.container}>
-                <h2>Skills</h2>
                 
-                <div className={style.skilsContainer}>
+                {/* Title */}
+                <div className={style.title}>
+                    <h2>Skills</h2>
+                </div>
+                
+                
+                <div className={style.skillsContainer}>
                     
-                    <Skill title={'JS'} description={'Descriptino bla bla bla'}/>    
+                    <Skill title={'REACT'} description={'Descriptino bla bla bla'}/>    
                     
-                    <Skill title={'JS'} description={'Descriptino bla bla blkj gle lejrg lekrjgl la'}/>    
+                    <Skill title={'JS/TS'} description={'Descriptino bla bla blkj gle lejrg lekrjgl la'}/>    
                     
-                    <Skill title={'JS'} description={'Descriptino bla bla bla'}/> 
+                    <Skill title={'C#'} description={'Descriptino bla bla bla'}/> 
 
-                    <Skill title={'JS'} description={'Descriptino bla bla bla'}/>    
+                    <Skill title={'SWIFT'} description={'Descriptino bla bla bla'}/>    
                     
-                    <Skill title={'JS'} description={'Descriptino bla bla blkj gle lejrg lekrjgl la'}/>    
+                    <Skill title={'HTML/CSS'} description={'Descriptino bla bla blkj gle lejrg lekrjgl la'}/>    
                     
-                    <Skill title={'JS'} description={'Descriptino bla bla bla'}/>     
+                    <Skill title={'JAVA'} description={'Descriptino bla bla bla'}/>     
                     
                 </div>
             </div>

@@ -2,8 +2,8 @@
     /* height: 100vh; */
     /* width: 100%; */
     width: 200px;
-
-    background-color: rgb(174, 174, 187);
+    color: white;
+    /* background-color: rgb(174, 174, 187); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,12 +11,21 @@
 }
 
 .icon {
-    width: 60px;
-    height: 60px;
-    background-color: rgb(83, 83, 102);
+    width: 80px;
+    height: 80px;
+    background-color: #1f1f20;
+
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
-/* .container {
-    width: 200px;
-    height: 250px;
-    background-color: grey;
-} */
+.description {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.title {
+    margin-top: 20px;
+    font-family: 'Rajdhani', sans-serif;
+}

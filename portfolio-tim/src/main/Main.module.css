@@ -34,3 +34,8 @@ h1 {
 .softwareDeveloper {
     /* color: rgb(58, 143, 223); */
 }
+@media screen and (max-width: 900px) {
+    .container {
+        width: 100%;
+    }
+}

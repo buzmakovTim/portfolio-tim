@@ -10,8 +10,11 @@ export const Skill = (props) => {
                 <div className={style.icon}>
 
                 </div>
-                <h2>{props.title}</h2>
-                <div>
+                <div className={style.title}>
+                    <h2>{props.title}</h2>
+                </div>
+                
+                <div className={style.description}>
                     {props.description}
                 </div>
             
