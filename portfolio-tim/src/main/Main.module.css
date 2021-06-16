@@ -1,0 +1,36 @@
+.main {
+    height: 100vh;
+    width: 100%;
+    background-color: #2b2b2c;
+}
+.container {
+    /* background-color: rgb(180, 166, 147); */
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* border: 1px solid; */
+}
+.text {
+    width: 370px;
+    /* background-color: burlywood; */
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Rajdhani', sans-serif;
+}
+.photo {
+    width: 300px;
+    height: 400px;
+    /* background-color: burlywood; */
+}
+h1 {
+    font-size: 1.4em;
+    font-family: 'Kaushan Script', cursive;
+    /* font-family: 'Cutive Mono', monospace; */
+}
+.softwareDeveloper {
+    /* color: rgb(58, 143, 223); */
+}

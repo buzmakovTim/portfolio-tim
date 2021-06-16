@@ -1,0 +1,33 @@
+.myWorks {
+    /* height: 100vh; */
+    width: 100%;
+    background-color: #1f1f20;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid; */
+}
+.title {
+    width: 100%;
+    /* border: 1px solid white; */
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.works {
+    /* min-height: 100px; */
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

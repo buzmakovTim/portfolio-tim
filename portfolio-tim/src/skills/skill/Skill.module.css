@@ -1,0 +1,22 @@
+.skill {
+    /* height: 100vh; */
+    /* width: 100%; */
+    width: 200px;
+
+    background-color: rgb(174, 174, 187);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(83, 83, 102);
+}
+/* .container {
+    width: 200px;
+    height: 250px;
+    background-color: grey;
+} */
