@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio-tim/static/css/main.58feae21.chunk.css",
+    "main.js": "/portfolio-tim/static/js/main.103e22f9.chunk.js",
+    "main.js.map": "/portfolio-tim/static/js/main.103e22f9.chunk.js.map",
+    "runtime-main.js": "/portfolio-tim/static/js/runtime-main.2ed41865.js",
+    "runtime-main.js.map": "/portfolio-tim/static/js/runtime-main.2ed41865.js.map",
+    "static/js/2.1b77fdb2.chunk.js": "/portfolio-tim/static/js/2.1b77fdb2.chunk.js",
+    "static/js/2.1b77fdb2.chunk.js.map": "/portfolio-tim/static/js/2.1b77fdb2.chunk.js.map",
+    "static/js/3.9c0c5edf.chunk.js": "/portfolio-tim/static/js/3.9c0c5edf.chunk.js",
+    "static/js/3.9c0c5edf.chunk.js.map": "/portfolio-tim/static/js/3.9c0c5edf.chunk.js.map",
+    "index.html": "/portfolio-tim/index.html",
+    "static/css/main.58feae21.chunk.css.map": "/portfolio-tim/static/css/main.58feae21.chunk.css.map",
+    "static/js/2.1b77fdb2.chunk.js.LICENSE.txt": "/portfolio-tim/static/js/2.1b77fdb2.chunk.js.LICENSE.txt",
+    "static/media/300x400.f03b5a0c.jpg": "/portfolio-tim/static/media/300x400.f03b5a0c.jpg",
+    "static/media/Main.module.css": "/portfolio-tim/static/media/background.08967be1.jpeg",
+    "static/media/checkWeight.d5c20cf8.png": "/portfolio-tim/static/media/checkWeight.d5c20cf8.png",
+    "static/media/otherProject.9ad121ae.png": "/portfolio-tim/static/media/otherProject.9ad121ae.png",
+    "static/media/react.2feb46ca.png": "/portfolio-tim/static/media/react.2feb46ca.png",
+    "static/media/socialNetwork.a6a76888.png": "/portfolio-tim/static/media/socialNetwork.a6a76888.png",
+    "static/media/todoList.d8f769c9.png": "/portfolio-tim/static/media/todoList.d8f769c9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ed41865.js",
+    "static/js/2.1b77fdb2.chunk.js",
+    "static/css/main.58feae21.chunk.css",
+    "static/js/main.103e22f9.chunk.js"
+  ]
+}
