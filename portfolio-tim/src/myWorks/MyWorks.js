@@ -1,15 +1,15 @@
 import React from 'react'
 import style from './MyWorks.module.css'
 import { Work } from './work/Work'
-import checkWeight from './../../img/checkWeight.png'
-import todoList from './../../img/todoList.png'
-import socialNetwork from './../../img/socialNetwork.png'
-import otherProject from './../../img/otherProject.png'
+import checkWeight from './../img/checkWeight.png'
+import todoList from './../img/todoList.png'
+import socialNetwork from './../img/socialNetwork.png'
+import otherProject from './../img/otherProject.png'
 
 export const MyWork = () => {
 
     return (
-        <div className={style.myWorks}>
+        <div className={style.myWorks} id='myProgects'>
                
                <div className={style.container}>
                     <div className={style.title}>

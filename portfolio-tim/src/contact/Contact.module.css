@@ -6,28 +6,29 @@
 }
 
 .container {
-    /* background-color: rgb(180, 166, 147); */
     width: 80%;
     margin: 0 auto;
     height: 100%;
     display: flex;
     flex-direction: column;
-
     align-items: center;
-    /* justify-content: space-evenly; */
     flex-wrap: wrap;
     /* border: 1px solid; */
 }
 
 .title {
-    width: 100%;
+    /* width: 100%; */
     color: white;
     font-family: 'Kaushan Script', cursive;
     padding-bottom: 30px;
     padding-top: 30px;
 }
+
+.title > h2 {
+    border-bottom: 3px solid rgb(58, 143, 223);
+}
 .contactForm {
-    height: 300px;
+    height: 350px;
     /* min-width: 250px; */
     width: 100%;
     /* border: 1px solid white; */
@@ -41,7 +42,7 @@
 input {
     margin: 10px;
     background-color: #2b2b2c;
-    border: 1px solid grey;
+    border: 1px solid rgba(128, 128, 128, 0.466);
     padding: 5px;
     height: 35px;
     font-family: 'Quicksand', sans-serif;
@@ -51,6 +52,7 @@ input {
 input:focus {
     outline: 1px solid #2b2b2c;
     border: none;
+    transition: all 0.6s ease-out;
 }
 textarea {
     padding: 5px;
@@ -64,14 +66,27 @@ textarea {
 textarea:focus {
     outline: 1px solid #2b2b2c;
     border: none;
+    transition: all 0.6s ease-out;
 }
 
-.sendMessage {
+/* .sendMessage {
     color: white;
 }
 .sendMessage:hover {
     color: rgb(58, 143, 223);
     cursor: pointer;
+} */
+
+.submitButton {
+    width: 20%;
+    min-width: 120px;
+}
+.submitButton:hover {
+    width: 20%;
+    color: rgb(58, 143, 223);
+    cursor: pointer;
+    border: 1px solid rgba(58, 143, 223, 0.233);
+    background-color: #3d3d3d;
 }
 
 @media screen and (max-width: 600px) {

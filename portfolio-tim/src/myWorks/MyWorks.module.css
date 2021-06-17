@@ -15,13 +15,17 @@
     /* border: 1px solid; */
 }
 .title {
-    width: 100%;
+    /* width: 100%; */
     /* border: 1px solid white; */
     color: white;
     font-family: 'Kaushan Script', cursive;
     padding-bottom: 30px;
     padding-top: 30px;
 }
+.title > h2 {
+    border-bottom: 3px solid rgb(58, 143, 223);
+}
+
 .works {
     /* min-height: 100px; */
     width: 100%;

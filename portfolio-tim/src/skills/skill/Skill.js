@@ -8,7 +8,7 @@ export const Skill = (props) => {
         <div className={style.skill}>
             
                 <div className={style.icon}>
-
+                    <img src={props.image} />
                 </div>
                 <div className={style.title}>
                     <h2>{props.title}</h2>
