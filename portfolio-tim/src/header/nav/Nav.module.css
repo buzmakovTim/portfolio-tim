@@ -15,3 +15,37 @@
 .nav a:hover {
     color: rgb(58, 143, 223);
 }
+
+@media screen and (max-width: 900px) {
+    .nav {
+        width: 100%;
+        margin: 0 auto;
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width: 400px) {
+    .nav {
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        /* background-color: rgb(103, 103, 180); */
+
+        justify-content: center;
+        align-items: center;
+    }
+    .nav a {
+        height: 35px;
+        width: 100%;
+        color: white;
+        text-decoration: none;
+        border-bottom: 1px solid rgb(48, 48, 48);
+        font-family: 'Quicksand', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav a:hover {
+        color: rgb(255, 255, 255);
+        background-color: rgb(58, 143, 223);
+    }
+}

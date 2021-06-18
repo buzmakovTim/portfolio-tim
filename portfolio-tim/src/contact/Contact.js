@@ -6,7 +6,8 @@ export const Contact = () => {
 
     const SERVICE_ID = "service_xs6b29g";
     const TEMPLATE_ID = "template_6phxbqq"
-    const USER_ID = "user_JRTAR0aXUphMjjZUedUDN";
+    //const USER_ID = "user_JRTAR0aXUphMjjZUedUDN";
+    const USER_ID = "FAKE";
 
 
 

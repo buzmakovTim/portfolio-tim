@@ -6,3 +6,17 @@
     justify-content: flex-end;
     align-items: center;
 }
+
+@media screen and (max-width: 400px) {
+    .header {
+        /* height: 10vh; */
+
+        height: auto;
+        width: 100%;
+        background-color: #1f1f20;
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+    }
+}

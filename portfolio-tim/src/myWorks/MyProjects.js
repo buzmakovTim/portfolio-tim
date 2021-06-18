@@ -1,12 +1,12 @@
 import React from 'react'
-import style from './MyWorks.module.css'
-import { Work } from './work/Work'
+import style from './MyProjects.module.css'
+import { Project } from './project/Project'
 import checkWeight from './../img/checkWeight.png'
 import todoList from './../img/todoList.png'
 import socialNetwork from './../img/socialNetwork.png'
 import otherProject from './../img/otherProject.png'
 
-export const MyWork = () => {
+export const MyProjects = () => {
 
     return (
         <div className={style.myWorks} id='myProgects'>
@@ -17,10 +17,10 @@ export const MyWork = () => {
                     </div>
                     <div className={style.works}>
                         
-                        <Work image={checkWeight}/>
-                        <Work image={socialNetwork}/>
-                        <Work image={todoList}/>
-                        <Work image={otherProject}/>
+                        <Project image={checkWeight}/>
+                        <Project image={socialNetwork}/>
+                        <Project image={todoList}/>
+                        <Project image={otherProject}/>
                         
 
                     </div>

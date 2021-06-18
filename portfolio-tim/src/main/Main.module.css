@@ -38,12 +38,6 @@ h1 {
 }
 .softwareDeveloper {
 }
-@media screen and (max-width: 900px) {
-    .container {
-        width: 100%;
-    }
-}
-
 .typingDemo {
     width: 290px;
     animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
@@ -66,5 +60,11 @@ h1 {
 @keyframes blink {
     50% {
         border-color: transparent;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        width: 100%;
     }
 }

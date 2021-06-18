@@ -1,7 +1,7 @@
 import React from 'react'
-import style from './Work.module.css'
+import style from './Project.module.css'
 
-export const Work = (props) => {
+export const Project = (props) => {
 
     return (
         <div className={style.work}>
