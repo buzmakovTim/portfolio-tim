@@ -7,7 +7,8 @@ import { Skills } from './skills/Skills'
 import { Contact } from './contact/Contact';
 import { Footer } from './footer/Footer';
 import { MyProjects } from './myWorks/MyProjects';
-
+import { Confirmation } from './confirmationPage/Confirmation';
+import { Redirect, Route } from 'react-router-dom';
 
 
 
@@ -16,14 +17,17 @@ function App() {
   return (
     <div className="App">
       
-      <Header />
-      <Main />
-      <MyProjects />
-      <Skills />
-      <Contact />
-      <Footer />
-      
+      <Route path='/profile' render={ () => <Header />}/>
+      <Route path='/profile' render={ () => <Main />}/>
+      <Route path='/profile' render={ () => <MyProjects />}/>
+      <Route path='/profile' render={ () => <Skills />}/>
+      <Route path='/profile' render={ () => <Contact />}/>
+      <Route path='/profile' render={ () => <Footer />}/>
 
+      <Route path='/confirmation' render={ () => <Confirmation />}/>
+      
+      
+      {/* <Redirect to={'/profile'} /> */}
     </div>
   );
 }

@@ -14,6 +14,7 @@
 }
 .nav a:hover {
     color: rgb(58, 143, 223);
+    cursor: pointer;
 }
 
 @media screen and (max-width: 900px) {
@@ -47,5 +48,6 @@
     .nav a:hover {
         color: rgb(255, 255, 255);
         background-color: rgb(58, 143, 223);
+        cursor: pointer;
     }
 }
