@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-tim/static/css/main.97eb11f5.chunk.css",
-    "main.js": "/portfolio-tim/static/js/main.c5438f07.chunk.js",
-    "main.js.map": "/portfolio-tim/static/js/main.c5438f07.chunk.js.map",
+    "main.js": "/portfolio-tim/static/js/main.7ddaa742.chunk.js",
+    "main.js.map": "/portfolio-tim/static/js/main.7ddaa742.chunk.js.map",
     "runtime-main.js": "/portfolio-tim/static/js/runtime-main.2b8c4266.js",
     "runtime-main.js.map": "/portfolio-tim/static/js/runtime-main.2b8c4266.js.map",
     "static/js/2.a9af6328.chunk.js": "/portfolio-tim/static/js/2.a9af6328.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.2b8c4266.js",
     "static/js/2.a9af6328.chunk.js",
     "static/css/main.97eb11f5.chunk.css",
-    "static/js/main.c5438f07.chunk.js"
+    "static/js/main.7ddaa742.chunk.js"
   ]
 }
