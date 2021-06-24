@@ -26,11 +26,67 @@
     font-size: 1.5em;
     font-family: 'Rajdhani', sans-serif;
 }
-.photo {
-    width: 300px;
-    height: 400px;
-    /* background-color: burlywood; */
+.photoDiv {
+    position: relative;
+    border: 3px solid rgb(58, 143, 223);
+    opacity: 0.8;
+    width: 290px;
+    padding-bottom: 20px;
+
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
 }
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.photoDiv > img {
+    width: 300px;
+    position: relative;
+    top: 10px;
+    right: 20px;
+}
+
 h1 {
     font-size: 1.4em;
     font-family: 'Kaushan Script', cursive;

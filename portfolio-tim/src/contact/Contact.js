@@ -1,16 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import style from './Contact.module.css'
 import emailjs from 'emailjs-com'
-import { Redirect } from 'react-router-dom';
+import { Route, Redirect } from 'react-router-dom';
+import {Confirmation} from './../confirmationPage/Confirmation'
 
 export const Contact = () => {
 
     const SERVICE_ID = "service_xs6b29g";
     const TEMPLATE_ID = "template_6phxbqq"
-    //const USER_ID = "user_JRTAR0aXUphMjjZUedUDN";
-    const USER_ID = "FAKE";
+    const USER_ID = "user_JRTAR0aXUphMjjZUedUDN";
+    //const USER_ID = "FAKE";
     let validated = true;
 
+    const [emailSent, setEmailSent] = useState('notYet'); // notYet, sent, failed,
 
     function sendEmail(e) {
         
@@ -20,24 +22,35 @@ export const Contact = () => {
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
       .then((result) => {
           console.log(result.text);
-          alert('Your email has been sent!')
+          emailConfirmation('sent')
+          e.target.reset();  
       }, (error) => {
           console.log(error.text);
-          alert('Error!')
-
-          return <Redirect to={'/confirmation'} />
-
+          emailConfirmation('failed')
       });
-      e.target.reset();
+      
     } else {
         alert('Form not validated')
-    }
-        
-    
+    } 
+}
+
+    const emailConfirmation = (send) => {
+        setEmailSent(send);
     }
 
-    return (
-        <div className={style.contact} id='contact'>
+    const confirmationComponent = (confirmation) => {
+
+        return (
+            <div>
+            <Confirmation message={confirmation}/>
+            </div>
+        )
+
+    }
+    const contactForm = () => {
+
+        return (
+            <div className={style.contact} id='contact'>
             <div className={style.container}>
 
                 <div className={style.title}>
@@ -59,6 +72,26 @@ export const Contact = () => {
 
                 </div>
             </div>
+        </div>
+        )
+    }
+
+    const showComponent = () => {
+        if(emailSent === 'notYet'){
+            return contactForm();
+        }
+        if(emailSent === 'sent') {
+            return confirmationComponent('sent');
+        }
+        if(emailSent === 'failed') {
+            return confirmationComponent('failed');
+        }
+    }
+
+    return (
+        <div>
+            
+            {showComponent()}
         </div>
     )
 }

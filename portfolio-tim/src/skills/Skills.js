@@ -22,17 +22,17 @@ export const Skills = () => {
                 
                 <div className={style.skillsContainer}>
                     
-                    <Skill title={'REACT'} image={react} description={'Descriptino bla bla bla'}/>    
+                    <Skill title={'REACT'} image={react} level={4}/>    
                     
-                    <Skill title={'JS/TS'} image={jsts} description={'Descriptino bla bla blkj gle lejrg lekrjgl la'}/>    
+                    <Skill title={'JS/TS'} image={jsts} level={4}/>    
                     
-                    <Skill title={'C#'} image={csharp} description={'Descriptino bla bla bla'}/> 
+                    <Skill title={'C#'} image={csharp} level={4}/> 
 
-                    <Skill title={'SWIFT'} image={swift} description={'Descriptino bla bla bla'}/>    
+                    <Skill title={'SWIFT'} image={swift} level={2}/>    
                     
-                    <Skill title={'HTML/CSS'} image={html} description={'Descriptino bla bla blkj gle lejrg lekrjgl la'}/>    
+                    <Skill title={'HTML/CSS'} image={html} level={4}/>    
                     
-                    <Skill title={'JAVA'} image={java} description={'Descriptino bla bla bla'}/>     
+                    <Skill title={'JAVA'} image={java} level={3}/>     
                     
                 </div>
             </div>

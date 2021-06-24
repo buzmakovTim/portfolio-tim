@@ -8,12 +8,12 @@
 }
 
 .nav a {
-    color: white;
+    color: rgb(58, 143, 223);
     text-decoration: none;
     font-family: 'Quicksand', sans-serif;
 }
 .nav a:hover {
-    color: rgb(58, 143, 223);
+    color: white;
     cursor: pointer;
 }
 

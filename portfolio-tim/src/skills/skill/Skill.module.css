@@ -36,7 +36,17 @@
     transform: rotate(-45deg);
 }
 .description {
+    margin-top: -10px;
     font-family: 'Quicksand', sans-serif;
+}
+.blue {
+    color: rgb(58, 143, 223);
+    font-weight: bold;
+    font-size: 1.8em;
+}
+.white {
+    color: white;
+    font-size: 1.8em;
 }
 
 .title {

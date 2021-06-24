@@ -17,17 +17,19 @@ function App() {
   return (
     <div className="App">
       
-      <Route path='/profile' render={ () => <Header />}/>
-      <Route path='/profile' render={ () => <Main />}/>
-      <Route path='/profile' render={ () => <MyProjects />}/>
-      <Route path='/profile' render={ () => <Skills />}/>
-      <Route path='/profile' render={ () => <Contact />}/>
-      <Route path='/profile' render={ () => <Footer />}/>
-
-      <Route path='/confirmation' render={ () => <Confirmation />}/>
-      
-      
       {/* <Redirect to={'/profile'} /> */}
+
+      <Route exact path='/' render={ () => <Header />}/>
+      <Route exact path='/' render={ () => <Main />}/>
+      <Route exact path='/' render={ () => <MyProjects />}/>
+      <Route exact path='/' render={ () => <Skills />}/>
+      <Route exact path='/' render={ () => <Contact />}/>
+      
+
+      {/* <Route path='/confirmation' render={ () => <Confirmation />}/> */}
+      
+      
+      <Route path='/' render={ () => <Footer />}/>
     </div>
   );
 }
