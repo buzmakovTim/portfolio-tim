@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-tim/static/css/main.97eb11f5.chunk.css",
+    "main.css": "/portfolio-tim/static/css/main.3e7deb6c.chunk.css",
     "main.js": "/portfolio-tim/static/js/main.7ddaa742.chunk.js",
     "main.js.map": "/portfolio-tim/static/js/main.7ddaa742.chunk.js.map",
     "runtime-main.js": "/portfolio-tim/static/js/runtime-main.2b8c4266.js",
@@ -10,7 +10,7 @@
     "static/js/3.729b3a40.chunk.js": "/portfolio-tim/static/js/3.729b3a40.chunk.js",
     "static/js/3.729b3a40.chunk.js.map": "/portfolio-tim/static/js/3.729b3a40.chunk.js.map",
     "index.html": "/portfolio-tim/index.html",
-    "static/css/main.97eb11f5.chunk.css.map": "/portfolio-tim/static/css/main.97eb11f5.chunk.css.map",
+    "static/css/main.3e7deb6c.chunk.css.map": "/portfolio-tim/static/css/main.3e7deb6c.chunk.css.map",
     "static/js/2.a9af6328.chunk.js.LICENSE.txt": "/portfolio-tim/static/js/2.a9af6328.chunk.js.LICENSE.txt",
     "static/media/300x450.66959a45.jpg": "/portfolio-tim/static/media/300x450.66959a45.jpg",
     "static/media/Main.module.css": "/portfolio-tim/static/media/background.08967be1.jpeg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.2b8c4266.js",
     "static/js/2.a9af6328.chunk.js",
-    "static/css/main.97eb11f5.chunk.css",
+    "static/css/main.3e7deb6c.chunk.css",
     "static/js/main.7ddaa742.chunk.js"
   ]
 }
