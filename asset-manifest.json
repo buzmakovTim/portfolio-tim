@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio-tim/static/css/main.e9665f55.chunk.css",
-    "main.js": "/portfolio-tim/static/js/main.353b768b.chunk.js",
-    "main.js.map": "/portfolio-tim/static/js/main.353b768b.chunk.js.map",
-    "runtime-main.js": "/portfolio-tim/static/js/runtime-main.2ed41865.js",
-    "runtime-main.js.map": "/portfolio-tim/static/js/runtime-main.2ed41865.js.map",
-    "static/js/2.1b77fdb2.chunk.js": "/portfolio-tim/static/js/2.1b77fdb2.chunk.js",
-    "static/js/2.1b77fdb2.chunk.js.map": "/portfolio-tim/static/js/2.1b77fdb2.chunk.js.map",
-    "static/js/3.9c0c5edf.chunk.js": "/portfolio-tim/static/js/3.9c0c5edf.chunk.js",
-    "static/js/3.9c0c5edf.chunk.js.map": "/portfolio-tim/static/js/3.9c0c5edf.chunk.js.map",
+    "main.css": "/portfolio-tim/static/css/main.97eb11f5.chunk.css",
+    "main.js": "/portfolio-tim/static/js/main.c5438f07.chunk.js",
+    "main.js.map": "/portfolio-tim/static/js/main.c5438f07.chunk.js.map",
+    "runtime-main.js": "/portfolio-tim/static/js/runtime-main.2b8c4266.js",
+    "runtime-main.js.map": "/portfolio-tim/static/js/runtime-main.2b8c4266.js.map",
+    "static/js/2.a9af6328.chunk.js": "/portfolio-tim/static/js/2.a9af6328.chunk.js",
+    "static/js/2.a9af6328.chunk.js.map": "/portfolio-tim/static/js/2.a9af6328.chunk.js.map",
+    "static/js/3.729b3a40.chunk.js": "/portfolio-tim/static/js/3.729b3a40.chunk.js",
+    "static/js/3.729b3a40.chunk.js.map": "/portfolio-tim/static/js/3.729b3a40.chunk.js.map",
     "index.html": "/portfolio-tim/index.html",
-    "static/css/main.e9665f55.chunk.css.map": "/portfolio-tim/static/css/main.e9665f55.chunk.css.map",
-    "static/js/2.1b77fdb2.chunk.js.LICENSE.txt": "/portfolio-tim/static/js/2.1b77fdb2.chunk.js.LICENSE.txt",
-    "static/media/300x400.f03b5a0c.jpg": "/portfolio-tim/static/media/300x400.f03b5a0c.jpg",
+    "static/css/main.97eb11f5.chunk.css.map": "/portfolio-tim/static/css/main.97eb11f5.chunk.css.map",
+    "static/js/2.a9af6328.chunk.js.LICENSE.txt": "/portfolio-tim/static/js/2.a9af6328.chunk.js.LICENSE.txt",
+    "static/media/300x450.66959a45.jpg": "/portfolio-tim/static/media/300x450.66959a45.jpg",
     "static/media/Main.module.css": "/portfolio-tim/static/media/background.08967be1.jpeg",
     "static/media/checkWeight.d5c20cf8.png": "/portfolio-tim/static/media/checkWeight.d5c20cf8.png",
     "static/media/otherProject.9ad121ae.png": "/portfolio-tim/static/media/otherProject.9ad121ae.png",
@@ -21,9 +21,9 @@
     "static/media/todoList.d8f769c9.png": "/portfolio-tim/static/media/todoList.d8f769c9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2ed41865.js",
-    "static/js/2.1b77fdb2.chunk.js",
-    "static/css/main.e9665f55.chunk.css",
-    "static/js/main.353b768b.chunk.js"
+    "static/js/runtime-main.2b8c4266.js",
+    "static/js/2.a9af6328.chunk.js",
+    "static/css/main.97eb11f5.chunk.css",
+    "static/js/main.c5438f07.chunk.js"
   ]
 }
