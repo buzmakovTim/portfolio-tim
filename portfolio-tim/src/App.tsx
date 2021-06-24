@@ -19,11 +19,11 @@ function App() {
       
       {/* <Redirect to={'/profile'} /> */}
 
-      <Route exact path='/' render={ () => <Header />}/>
-      <Route exact path='/' render={ () => <Main />}/>
-      <Route exact path='/' render={ () => <MyProjects />}/>
-      <Route exact path='/' render={ () => <Skills />}/>
-      <Route exact path='/' render={ () => <Contact />}/>
+      <Route path='/' render={ () => <Header />}/>
+      <Route path='/' render={ () => <Main />}/>
+      <Route path='/' render={ () => <MyProjects />}/>
+      <Route path='/' render={ () => <Skills />}/>
+      <Route path='/' render={ () => <Contact />}/>
       
 
       {/* <Route path='/confirmation' render={ () => <Confirmation />}/> */}
