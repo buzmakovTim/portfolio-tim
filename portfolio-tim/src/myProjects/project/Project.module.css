@@ -1,7 +1,7 @@
 .work {
     /* width: 400px; */
     /* height: 450px; */
-    width: 45%;
+    width: 100%;
     height: 100%;
     position: relative;
     /* min-width: 400px; */
@@ -67,11 +67,4 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-@media screen and (max-width: 900px) {
-    .work {
-        /* width: 400px; */
-        /* height: 450px; */
-        width: 90%;
-    }
 }

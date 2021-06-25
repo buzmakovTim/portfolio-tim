@@ -35,8 +35,16 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+.navLink {
+    width: 45%;
+}
 @media screen and (max-width: 600px) {
     .container {
         width: 100%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .navLink {
+        width: 90%;
     }
 }

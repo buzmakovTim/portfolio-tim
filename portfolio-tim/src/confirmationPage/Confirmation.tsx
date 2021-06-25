@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Confirmation.module.css';
 
-export const Confirmation = (props) => {
+export const Confirmation = (props: any) => {
 
     
     const message = () => {

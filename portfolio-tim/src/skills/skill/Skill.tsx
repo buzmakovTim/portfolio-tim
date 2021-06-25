@@ -1,8 +1,12 @@
 import React from 'react'
+import { SkillType } from '../../state/State'
 import style from './Skill.module.css'
 
+type SkillPropsType = {
+    skill: SkillType;
+}
 
-export const Skill = (props) => {
+export const Skill: React.FC<SkillPropsType> = ({skill}) => {
 
     const skillLevel = () => {
 
@@ -10,7 +14,7 @@ export const Skill = (props) => {
         let white = "";
 
         for(let i = 1; i <= 5; i++){
-            if(i <= props.level){
+            if(i <= skill.level){
                 colored += ' * '
             } else {
                 white += ' * '
@@ -32,10 +36,10 @@ export const Skill = (props) => {
         <div className={style.skill}>
             
                 <div className={style.icon}>
-                    <img src={props.image} />
+                    <img src={skill.imageUrl} />
                 </div>
                 <div className={style.title}>
-                    <h2>{props.title}</h2>
+                    <h2>{skill.title}</h2>
                 </div>
                 
                 <div className={style.description}>

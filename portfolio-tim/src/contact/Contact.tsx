@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import style from './Contact.module.css'
 import emailjs from 'emailjs-com'
 import { Route, Redirect } from 'react-router-dom';
-import {Confirmation} from './../confirmationPage/Confirmation'
+import {Confirmation} from '../confirmationPage/Confirmation'
 
 export const Contact = () => {
 
@@ -14,7 +14,7 @@ export const Contact = () => {
 
     const [emailSent, setEmailSent] = useState('notYet'); // notYet, sent, failed,
 
-    function sendEmail(e) {
+    function sendEmail(e: any) {
         
     e.preventDefault();
     
@@ -34,11 +34,11 @@ export const Contact = () => {
     } 
 }
 
-    const emailConfirmation = (send) => {
+    const emailConfirmation = (send: string) => {
         setEmailSent(send);
     }
 
-    const confirmationComponent = (confirmation) => {
+    const confirmationComponent = (confirmation: string) => {
 
         return (
             <div>
@@ -64,7 +64,7 @@ export const Contact = () => {
                             <input type="text" placeholder='Name*' name='name' required/>
                             <input type="text" placeholder='Subject*' name='subject' required/>
                             <input type="email" placeholder='E-mail*' name='email' required/>
-                            <textarea name="message" placeholder='You message*' name='message' required/>
+                            <textarea placeholder='You message*' name='message' required/>
                             
                             <input type="submit" className={style.submitButton} value="Send Message" />
 
