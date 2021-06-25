@@ -24,7 +24,7 @@ export const MyProjects: React.FC<MyProjectsPropsType> = ({projects}) => {
 
         return <div className={style.navLink}>
 
-        <NavLink to={`/index/${project.id}`} onClick={() => setProject(project)}>
+        <NavLink to={`/${project.id}`} onClick={() => setProject(project)}>
             <Project project={project}/>
         </NavLink>
         </div>
@@ -61,8 +61,8 @@ export const MyProjects: React.FC<MyProjectsPropsType> = ({projects}) => {
                         <h2>My Projects</h2>
                     </div>
             {/* {projectsToDisplay()} */}
-            <Route exact path={'/index'} render={ ()=> projectsToDisplay()}/>
-            <Route exact path={`/index/${projectToDisplayDetails.id}`} render={ ()=> <ProjectDetailed project={projectToDisplayDetails}/>}/>
+            <Route exact path={'/'} render={ ()=> projectsToDisplay()}/>
+            <Route exact path={`/${projectToDisplayDetails.id}`} render={ ()=> <ProjectDetailed project={projectToDisplayDetails}/>}/>
             </div>
         
         </div> 

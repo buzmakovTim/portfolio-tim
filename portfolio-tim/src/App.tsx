@@ -22,18 +22,18 @@ function App(props: AppPropsType) {
       
       {/* <Redirect to={'/profile'} /> */}
 
-      <Route path='/index' render={ () => <Header />}/>
-      <Route path='/index' render={ () => <Main />}/>
-      <Route path='/index' render={ () => <MyProjects projects={props.state.projects}/>}/>
-      <Route path='/index' render={ () => <Skills skills={props.state.skills}/>}/>
-      <Route path='/index' render={ () => <Contact />}/>
+      <Route path='/' render={ () => <Header />}/>
+      <Route path='/' render={ () => <Main />}/>
+      <Route path='/' render={ () => <MyProjects projects={props.state.projects}/>}/>
+      <Route path='/' render={ () => <Skills skills={props.state.skills}/>}/>
+      <Route path='/' render={ () => <Contact />}/>
       
 
       {/* <Route path='/confirmation' render={ () => <Confirmation />}/> */}
       
       
-      <Route path='/index' render={ () => <Footer />}/>
-      <Redirect to='/index' />
+      <Route path='/' render={ () => <Footer />}/>
+      <Redirect to='/' />
       
     </div>
   );
