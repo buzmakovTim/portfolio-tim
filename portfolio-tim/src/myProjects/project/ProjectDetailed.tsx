@@ -16,7 +16,7 @@ export const ProjectDetailed: React.FC<ProjectDitailedPropsType> = ({project}) =
         <>
         {/* Back */}
         <div className={style.back}>
-        <NavLink to={'/'}>{'<< Back'}</NavLink>
+        <NavLink to={'/portfolio-tim'}>{'<< Back'}</NavLink>
         </div>
         
         {/* Container */}
