@@ -37,7 +37,7 @@ function App(props: AppPropsType) {
       
       {/* <Route path='/' render={ () => <Footer />}/> */}
       <Footer />
-      <Redirect to='/' />
+      <Redirect to='/portfolio-tim' />
       
     </div>
   );
