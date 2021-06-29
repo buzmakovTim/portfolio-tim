@@ -16,7 +16,7 @@ export const ProjectDetailed: React.FC<ProjectDitailedPropsType> = ({project}) =
         <>
         {/* Back */}
         <div className={style.back}>
-        <NavLink to={'/portfolio-tim'}>{'<< Back'}</NavLink>
+        <NavLink to={'/'}>{'<< Back'}</NavLink>
         </div>
         
         {/* Container */}
@@ -31,10 +31,34 @@ export const ProjectDetailed: React.FC<ProjectDitailedPropsType> = ({project}) =
             {/* Image */}
             <img src={project.imageUrl} />
 
-            {/* Description */}
-            <div className={style.description}>
-                <span>{project.descriptionLong}</span>
+{/* Description  start*/}
+
+            {/* Description One */}
+            <div className={style.descriptionOne}>
+                <span>{project.descriptionOne}</span>
             </div>
+
+            {/* Description Two */}
+            <div className={style.description}>
+                <span>{project.descriptionTwo}</span>
+            </div>
+            
+            {/* Description Three */}
+            <div className={style.description}>
+                <span>{project.descriptionThree}</span>
+            </div>
+
+            {/* Description Four */}
+            <div className={style.description}>
+                <span>{project.descriptionFour}</span>
+            </div>
+
+            {/* Description Five */}
+            <div className={style.descriptionFive}>
+                <span>{project.descriptionFive}</span>
+            </div>
+
+{/* Description  end*/}
 
             {/* Links start*/}
             <div className={style.links}>

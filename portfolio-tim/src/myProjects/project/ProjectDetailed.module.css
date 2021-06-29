@@ -34,15 +34,31 @@
     font-family: 'Rajdhani', sans-serif;
     font-size: 2em;
 }
-.description {
+.descriptionOne {
     margin-top: 30px;
-    width: 60%;
+    width: 70%;
     color: white;
     font-size: 1.5em;
     font-family: 'Quicksand', sans-serif;
     padding: 25px;
     text-align: left;
-    background-color: rgba(58, 143, 223, 0.041);
+    /* background-color: rgba(58, 143, 223, 0.041); */
+}
+.description {
+    /* margin-top: 30px; */
+    width: 70%;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+    padding: 15px 25px;
+    text-align: left;
+    /* background-color: rgba(58, 143, 223, 0.041); */
+}
+.descriptionFive {
+    color: rgb(58, 143, 223);
+    font-size: 1em;
+    font-family: 'Quicksand', sans-serif;
+    padding: 15px 25px;
 }
 
 .links {

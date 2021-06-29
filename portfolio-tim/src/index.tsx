@@ -2,17 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
 import App from './App';
 import State from './state/State';
 
 
 ReactDOM.render(
-  <BrowserRouter>
+  // BrowserRouter we gonna use instead of HashRouter for real domain (HashRouter using for GitHub pages) 
+  // as GitHub not working with BrowserRouter 
+  <HashRouter>   
         <React.StrictMode>
                 <App state={State}/>
         </React.StrictMode>
-  </BrowserRouter>,
+  </HashRouter>,
   
   document.getElementById('root')
 );
