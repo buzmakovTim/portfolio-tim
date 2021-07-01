@@ -97,7 +97,7 @@ const State : StateType = {
         {
             id: v1(),
             title: 'TodoLists',
-            descriptionOne: 'Some Description about this project. It will be much more information. Bla Bla bla',
+            descriptionOne: 'Study project. Todo Lists',
             descriptionTwo: 'Some Description about this project. It will be much more information. Bla Bla bla',
             descriptionThree: 'Some Description about this project. It will be much more information. Bla Bla bla',
             descriptionFour: 'Some Description about this project. It will be much more information. Bla Bla bla',
