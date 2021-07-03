@@ -1,5 +1,4 @@
 import React from 'react';
-import { v1 } from 'uuid';
 import swift from './../img/skills/swift.png'
 import react from './../img/skills/react.png'
 import jsts from './../img/skills/jsts.png'
@@ -10,6 +9,7 @@ import checkWeight from './../img/checkWeight.png'
 import todoList from './../img/todoList.png'
 import socialNetwork from './../img/socialNetwork.png'
 import otherProject from './../img/otherProject.png'
+import { v1 } from 'uuid';
 
 
 export type SkillType = {

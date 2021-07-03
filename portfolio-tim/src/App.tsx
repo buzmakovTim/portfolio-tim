@@ -10,6 +10,7 @@ import { MyProjects } from './myProjects/MyProjects';
 import { Confirmation } from './confirmationPage/Confirmation';
 import { Redirect, Route } from 'react-router-dom';
 import { StateType } from './state/State';
+import ScrollToTop from './scrollToTop/ScrollToTop';
 
 
 type AppPropsType = {
@@ -19,7 +20,7 @@ type AppPropsType = {
 function App(props: AppPropsType) {
   return (
     <div className="App">
-      
+      <ScrollToTop />
       {/* <Redirect to={'/profile'} /> */}
 
       {/* <Route path='/' render={ () => <Header />}/>

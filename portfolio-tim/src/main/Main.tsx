@@ -6,19 +6,17 @@ export const Main = () => {
 
     return (
         <div className={style.main}>
-            <div className={style.container}>
+            <div className={style.container} id='about'>
 
                 {/* Greeting */}
-                <div className={style.text}>
-                        <span>Hi There</span>
-                        <h1>I am Tim Buzmakov</h1>
-                        <p className={`${style.softwareDeveloper} ${style.typingDemo}`}>Full-Stack software developer. </p>
+                <div className={style.titleContainer}>
+                    <div className={style.text}>
+                            {/* <span>Hi There</span> */}
+                            <h1>Tim Buzmakov</h1>
+                            <p className={`${style.softwareDeveloper} ${style.typingDemo}`}>Web Developer. </p>
+                    </div>
                 </div>
-                
-                {/* Photo */}
-                <div className={style.photoDiv}>
-                    <img src={photo}></img>
-                </div>
+
             </div>
         </div>
     )
