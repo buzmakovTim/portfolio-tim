@@ -24,6 +24,7 @@
     /* border: 1px solid; */
 }
 .text {
+    text-align: left;
     /* align-self: flex-start; */
     width: 450px;
     /* background-color: burlywood; */
@@ -94,17 +95,14 @@
 
 h1 {
     font-size: 2.6em;
-    color: rgba(255, 255, 255, 0);
-    -webkit-text-stroke: 0.1px rgb(255, 255, 255);
-    /* border: 1px solid black; */
+    font-weight: 400;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    -webkit-text-fill-color: rgba(145, 145, 145, 0);
+    margin-bottom: 15px;
+}
 
-    /* font-family: 'Kaushan Script', cursive; */
-    /* font-family: 'Cutive Mono', monospace; */
-}
-.softwareDeveloper {
-}
 .typingDemo {
-    width: 440px;
+    width: 559px;
     animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -116,7 +114,36 @@ h1 {
     font-family: 'Roboto', sans-serif;
     /* font-family: 'Rajdhani', sans-serif; */
     display: flex;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin-bottom: 30px;
+}
+.basedInCanada {
+    font-size: 1.4em;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9em;
+    width: 230px;
+    height: 60px;
+    border: 2px solid white;
+    transition: all 0.9s ease;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9em;
+    border: 2px solid white;
+    transition: all 0.9s ease;
 }
 
 @keyframes typing {
@@ -128,6 +155,24 @@ h1 {
 @keyframes blink {
     50% {
         border-color: transparent;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .text {
+        font-size: 1em;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .button {
+        margin: 40px auto;
+    }
+    .typingDemo {
+        margin: 0 auto 30px;
+        width: 290px;
     }
 }
 

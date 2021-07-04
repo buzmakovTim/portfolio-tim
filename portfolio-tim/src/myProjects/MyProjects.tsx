@@ -39,7 +39,7 @@ export const MyProjects: React.FC<MyProjectsPropsType> = ({projects}) => {
         //      <div className={style.title}>
         //          <h2>My Projects</h2>
         //      </div>
-             <div className={style.works}>
+             <div className={style.projects}>
                  
                  {projectsComponents}
                  
@@ -54,7 +54,7 @@ export const MyProjects: React.FC<MyProjectsPropsType> = ({projects}) => {
 
     return (  
         <div>
-            <div className={style.myWorks} id='myProgects'>
+            <div className={style.myProjects} id='myProgects'>
                
                <div className={style.container}>
                     <div className={style.title}>

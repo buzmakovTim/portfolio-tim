@@ -2,7 +2,7 @@
     /* height: 100vh; */
     /* width: 100%; */
     width: 200px;
-    color: white;
+    color: rgb(0, 0, 0);
     /* background-color: rgb(174, 174, 187); */
     display: flex;
     flex-direction: column;
@@ -39,13 +39,13 @@
     margin-top: -10px;
     font-family: 'Quicksand', sans-serif;
 }
-.blue {
-    color: rgb(58, 143, 223);
+.black {
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 1.8em;
 }
-.white {
-    color: white;
+.grey {
+    color: rgb(156, 156, 156);
     font-size: 1.8em;
 }
 

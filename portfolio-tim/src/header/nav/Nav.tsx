@@ -11,28 +11,15 @@ export const Nav = () => {
         <div className={style.navContainer}>
             <div >
 
+            {/* Scrollspy - Scrolling through the page and select right tab in the Nav menu */}
             <Scrollspy
               className={style.nav}
-              items={["about", "myProgects", "skills", "contact"]}
+              items={["about", "myProgects", "skills", "contact"]} // items should match with ID for each component
               currentClassName={style.current}
               offset={-90}
             >    
-            {/* <li>
-                <a href="#home">Home</a>
-              </li>
-              <li className={style.current}>
-                <a href="#myProgects">Portfolio</a>
-              </li>
-              <li>
-                <a href="#news">News</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
-              </li> */}
-
+            
                 <Link
-                    //activeClass='active'
-                    //className={style.current}
                     to='about'
                     spy={true}
                     smooth={true}
@@ -44,7 +31,7 @@ export const Nav = () => {
                     to='myProgects'
                     spy={true}
                     smooth={true}
-                    offset={-90}
+                    offset={-55}
                     duration={500}
                     >My Projects</Link>
                 <Link
@@ -52,7 +39,7 @@ export const Nav = () => {
                     to='skills'
                     spy={true}
                     smooth={true}
-                    offset={-90}
+                    offset={-55}
                     duration={500}
                     >Skills</Link>
                 <Link

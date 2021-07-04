@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: all 0.6s ease-out;
 }
 
 .container img {
@@ -30,16 +31,19 @@
     color: white;
 }
 .title > h2 {
-    color: white;
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 2em;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
 }
 .descriptionOne {
     margin-top: 30px;
     width: 70%;
-    color: white;
-    font-size: 1.5em;
-    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1px;
+    color: rgb(56, 56, 56);
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 30px;
     padding: 25px;
     text-align: left;
     /* background-color: rgba(58, 143, 223, 0.041); */
@@ -47,17 +51,19 @@
 .description {
     /* margin-top: 30px; */
     width: 70%;
-    color: white;
-    font-size: 1.5em;
-    font-family: 'Quicksand', sans-serif;
+    color: rgb(56, 56, 56);
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 30px;
     padding: 15px 25px;
     text-align: left;
     /* background-color: rgba(58, 143, 223, 0.041); */
 }
 .descriptionFive {
-    color: rgb(58, 143, 223);
+    color: rgb(66, 66, 66);
     font-size: 1em;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 15px 25px;
 }
 

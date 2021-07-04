@@ -1,6 +1,7 @@
 import React from 'react'
 import style from './Main.module.css'
 import photo from '../img/300x450.jpg'
+import {Link} from 'react-scroll'
 
 export const Main = () => {
 
@@ -13,7 +14,22 @@ export const Main = () => {
                     <div className={style.text}>
                             {/* <span>Hi There</span> */}
                             <h1>Tim Buzmakov</h1>
-                            <p className={`${style.softwareDeveloper} ${style.typingDemo}`}>Web Developer. </p>
+                            <span className={style.typingDemo}>Software Developer. </span>
+                            <span className={style.basedInCanada}>based in Canada.</span>
+
+                            {/* Button */}
+                            
+                                
+                            <Link
+                                to='myProgects'
+                                spy={true}
+                                smooth={true}
+                                offset={-55}
+                                duration={500}
+                                >
+                                <div className={style.button}>SEE PROJECTS</div>
+                            </Link>
+                                
                     </div>
                 </div>
 

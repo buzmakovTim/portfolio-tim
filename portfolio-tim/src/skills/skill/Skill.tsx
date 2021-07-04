@@ -24,8 +24,8 @@ export const Skill: React.FC<SkillPropsType> = ({skill}) => {
 
         return (
             <div>
-                <span className={style.blue}>{colored}</span>
-                <span className={style.white}>{white}</span>
+                <span className={style.black}>{colored}</span>
+                <span className={style.grey}>{white}</span>
             </div>
         )
     }
