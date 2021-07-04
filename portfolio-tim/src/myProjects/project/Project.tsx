@@ -20,7 +20,7 @@ export const Project: React.FC<ProjectPropsType> = ({project}) => {
             <div className={style.photoDiv}>
  
                 <img src={project.imageUrl}></img>
-                <div className={style.viewButton}>View</div>               
+                <div className={style.viewButton}>Click to View</div>               
 
             </div>
 

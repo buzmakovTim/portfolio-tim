@@ -33,7 +33,7 @@
     width: 100%;
     /* border: 1px solid white; */
     display: flex;
-    gap: 20px;
+    gap: 60px;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }

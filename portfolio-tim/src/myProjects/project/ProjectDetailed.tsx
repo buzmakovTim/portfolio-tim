@@ -1,9 +1,11 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import {Link} from 'react-scroll'
 import { ProjectType } from '../../state/State'
 import style from './ProjectDetailed.module.css'
 import github from './../../img/github.png'
 import web from './../../img/web.png'
+import arrowBack from './../../img/arrowBack.png';
 
 type ProjectDitailedPropsType = {
     project: ProjectType
@@ -11,17 +13,36 @@ type ProjectDitailedPropsType = {
 
 export const ProjectDetailed: React.FC<ProjectDitailedPropsType> = ({project}) => {
 
+    const backToMyProjects = () => {
+        return ( 
+        <div className={style.back}>
+            
+        <Link to='myProgects'
+                            spy={true}
+                            smooth={true}
+                            offset={-55}
+                            duration={500}
+                            >
+            <NavLink to={'/'}>
+            <img className={style.arrowBack} src={arrowBack} alt="" />
+            </NavLink>
+        </Link>
+        </div>
+        )
+    }
+
+
+
     // alert('ProjectDitailed Called!')
     return (
-        <>
-        {/* Back */}
-        <div className={style.back}>
-        <NavLink to={'/'}>{'<< Back'}</NavLink>
-        </div>
+        <div>
+
+        {/* Back button */}
+        {backToMyProjects()}
+        
         
         {/* Container */}
         <div className={style.container}>
-            
             
 
             <div className={style.title}>
@@ -58,11 +79,12 @@ export const ProjectDetailed: React.FC<ProjectDitailedPropsType> = ({project}) =
                 <span>{project.descriptionFive}</span>
             </div>
 
+            
+
 {/* Description  end*/}
 
-            {/* Links start*/}
+            {/* Links for Git or WebPage start*/}
             <div className={style.links}>
-                
                 
             {
                 project.githubPage !== '' ? 
@@ -88,8 +110,10 @@ export const ProjectDetailed: React.FC<ProjectDitailedPropsType> = ({project}) =
             {/* Links ends*/}
 
         </div>
-        
-        </>
+
+        {/* Back button */}
+        {backToMyProjects()}
+        </div>
     )
 }
 
