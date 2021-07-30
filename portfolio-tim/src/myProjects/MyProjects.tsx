@@ -4,6 +4,7 @@ import { ProjectType } from '../state/State'
 import style from './MyProjects.module.css'
 import { Project } from './project/Project'
 import { ProjectDetailed } from './project/ProjectDetailed'
+import {Link} from 'react-scroll'
 
 type MyProjectsPropsType = {
     projects: ProjectType[]
@@ -24,30 +25,32 @@ export const MyProjects: React.FC<MyProjectsPropsType> = ({projects}) => {
 
         return <div className={style.navLink}>
 
-        <NavLink to={`/${project.id}`} onClick={() => setProject(project)}>
-            <Project project={project}/>
-        </NavLink>
+                <Link
+                    to='myProgects'
+                    spy={true}
+                    smooth={true}
+                    offset={-55}
+                    duration={500}
+                    >
+                        <NavLink to={`/${project.id}`} onClick={() => setProject(project)}>
+                            <Project project={project}/>
+                        </NavLink>
+                        
+                    </Link>
+                    
         </div>
 
     })
 
     const projectsToDisplay = () => {
         return (
-        // <div className={style.myWorks} id='myProgects'>
-               
-        // <div className={style.container}>
-        //      <div className={style.title}>
-        //          <h2>My Projects</h2>
-        //      </div>
+
              <div className={style.projects}>
                  
                  {projectsComponents}
-                 
-
+            
              </div>
-        // </div>
-        
-        // </div> 
+
         )}
 
     
@@ -56,14 +59,15 @@ export const MyProjects: React.FC<MyProjectsPropsType> = ({projects}) => {
         <div>
             <div className={style.myProjects} id='myProgects'>
                
-               <div className={style.container}>
+                <div className={style.container}>
+                    
                     <div className={style.title}>
                         <h2>My Projects</h2>
                     </div>
-            {/* {projectsToDisplay()} */}
-            <Route exact path={'/'} render={ ()=> projectsToDisplay()}/>
-            <Route exact path={`/${projectToDisplayDetails.id}`} render={ ()=> <ProjectDetailed project={projectToDisplayDetails}/>}/>
-            </div>
+                    
+                    <Route exact path={'/'} render={ ()=> projectsToDisplay()}/>
+                    <Route exact path={`/${projectToDisplayDetails.id}`} render={ ()=> <ProjectDetailed project={projectToDisplayDetails}/>}/>
+                </div>
         
         </div> 
         

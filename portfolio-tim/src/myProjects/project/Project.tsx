@@ -8,9 +8,7 @@ type ProjectPropsType = {
 
 export const Project: React.FC<ProjectPropsType> = ({project}) => {
 
-    // const backGround = {
-    //     backgroundImage: `url(${project.imageUrl})`
-    // }
+    
 
 
     return (
@@ -19,6 +17,10 @@ export const Project: React.FC<ProjectPropsType> = ({project}) => {
             {/* style={backGround} */}
             <div className={style.photoDiv}>
  
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
                 <img src={project.imageUrl}></img>
                 <div className={style.viewButton}>Click to View</div>               
 

@@ -1,19 +1,21 @@
-import React from 'react'
-import style from './Nav.module.css'
+import React, { useState } from 'react'
+import style from './Nav.module.scss'
 import {Link} from 'react-scroll'
 import Scrollspy from 'react-scrollspy'
-
+import menuButton from './../../img/menuButton1.png';
 
 export const Nav = () => {
 
+    const[showMenu, setShowNemu] = useState(false);
+ 
     return (
         
         <div className={style.navContainer}>
-            <div >
+            
 
             {/* Scrollspy - Scrolling through the page and select right tab in the Nav menu */}
             <Scrollspy
-              className={style.nav}
+              className={!showMenu ? style.nav : style.navShow}
               items={["about", "myProgects", "skills", "contact"]} // items should match with ID for each component
               currentClassName={style.current}
               offset={-90}
@@ -25,6 +27,7 @@ export const Nav = () => {
                     smooth={true}
                     offset={0}
                     duration={500}
+                    onClick={() => setShowNemu(false)}
                     >About</Link>
                 <Link
                     //activeClass='active'
@@ -33,6 +36,7 @@ export const Nav = () => {
                     smooth={true}
                     offset={-55}
                     duration={500}
+                    onClick={() => setShowNemu(false)}
                     >My Projects</Link>
                 <Link
                     //activeClass='active'
@@ -41,6 +45,7 @@ export const Nav = () => {
                     smooth={true}
                     offset={-55}
                     duration={500}
+                    onClick={() => setShowNemu(false)}
                     >Skills</Link>
                 <Link
                     //activeClass='active'
@@ -49,37 +54,18 @@ export const Nav = () => {
                     smooth={true}
                     offset={0}
                     duration={500}
+                    onClick={() => setShowNemu(false)}
                     >Contact</Link>
 
             </Scrollspy>
-            </div>
             
             
-              {/* <li>
-                <a href="#home">Home</a>
-              </li>
-              <li>
-                <a href="#about">About</a>
-              </li>
-              <li>
-                <a href="#portfolio">Portfolio</a>
-              </li>
-              <li>
-                <a href="#news">News</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
-              </li>
-              <li>
-                <a
-                  className="white-fill-bg btn-outline btn_sm"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://themeforest.net/item/shane-react-personal-portfolio-template/32642263"
-                >
-                  Buy Now
-                </a>
-              </li> */}
+            
+            <div className={style.showMenuButton} onClick={ () => setShowNemu(!showMenu) }>
+              <img src={menuButton} alt="" />
+            </div> 
+            
+
             
         </div>
         

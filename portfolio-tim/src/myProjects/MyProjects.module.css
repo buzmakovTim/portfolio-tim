@@ -38,6 +38,7 @@
     flex-wrap: wrap;
 }
 .navLink {
+    /* position: relative; */
     width: 45%;
     color: black;
     text-decoration: none;

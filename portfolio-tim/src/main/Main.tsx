@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './Main.module.css'
+import style from './Main.module.scss'
 import photo from '../img/300x450.jpg'
 import {Link} from 'react-scroll'
 
