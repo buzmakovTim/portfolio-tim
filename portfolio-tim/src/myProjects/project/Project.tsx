@@ -28,6 +28,7 @@ export const Project: React.FC<ProjectPropsType> = ({project}) => {
 
             <h3>{project.title}</h3>
             {/* <span>{project.descriptionFour}</span> */}
+            {/* <span>{project.descriptionFour}</span> */}
 
         </div>
     )
