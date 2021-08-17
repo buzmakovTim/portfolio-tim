@@ -3,6 +3,7 @@ import style from './Contact.module.css'
 import emailjs from 'emailjs-com'
 import { Route, Redirect } from 'react-router-dom';
 import {Confirmation} from '../confirmationPage/Confirmation'
+import { Fade } from "react-awesome-reveal";
 
 export const Contact = () => {
 
@@ -54,23 +55,28 @@ export const Contact = () => {
             <div className={style.container}>
 
                 <div className={style.title}>
-                    <h2>Contact</h2>
+                    <Fade direction='left'>
+                        <h2>Contact</h2>
+                    </Fade>
+                    
                 </div>
-                <div className={style.contactForm}>
+                
+                    <div className={style.contactForm}>
+                    
+                        <form className={style.contactForm} onSubmit={sendEmail}>
 
-                    <form className={style.contactForm} onSubmit={sendEmail}>
+                                {/* required  - validating form but need to refactor this */}
+                                <input type="text" placeholder='Name*' name='name' required/>
+                                <input type="text" placeholder='Subject*' name='subject' required/>
+                                <input type="email" placeholder='E-mail*' name='email' required/>
+                                <textarea placeholder='You message*' name='message' required/>
+                                
+                                <input type="submit" className={style.submitButton} value="Send Message" />
 
-                            {/* required  - validating form but need to refactor this */}
-                            <input type="text" placeholder='Name*' name='name' required/>
-                            <input type="text" placeholder='Subject*' name='subject' required/>
-                            <input type="email" placeholder='E-mail*' name='email' required/>
-                            <textarea placeholder='You message*' name='message' required/>
-                            
-                            <input type="submit" className={style.submitButton} value="Send Message" />
-
-                    </form>
-
-                </div>
+                        </form>
+                    
+                    </div>
+                
             </div>
         </div>
         )

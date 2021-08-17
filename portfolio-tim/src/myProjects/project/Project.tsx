@@ -1,6 +1,7 @@
 import React from 'react'
 import { ProjectType } from '../../state/State'
 import style from './Project.module.css'
+import { Fade } from "react-awesome-reveal";
 
 type ProjectPropsType = {
     project: ProjectType;
@@ -13,7 +14,8 @@ export const Project: React.FC<ProjectPropsType> = ({project}) => {
 
     return (
         <div className={style.work}>
-            
+            <Fade>
+
             {/* style={backGround} */}
             <div className={style.photoDiv}>
  
@@ -29,7 +31,7 @@ export const Project: React.FC<ProjectPropsType> = ({project}) => {
             <h3>{project.title}</h3>
             {/* <span>{project.descriptionFour}</span> */}
             {/* <span>{project.descriptionFour}</span> */}
-
+            </Fade>
         </div>
     )
 }

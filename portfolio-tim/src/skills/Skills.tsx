@@ -1,6 +1,7 @@
 import React from 'react'
 import style from './Skills.module.css'
 import { Skill } from './skill/Skill'
+import { Fade } from "react-awesome-reveal";
 
 import { SkillType } from '../state/State'
 
@@ -14,7 +15,10 @@ export const Skills = (props: SkillsPropsType) => {
     const skills = props.skills.map( skill => {
         return (
             <>    
-                <Skill skill={skill}/>
+                <Fade direction='up'>
+                    <Skill skill={skill}/>
+                </Fade>
+                
             </>
         )
     })
@@ -25,7 +29,10 @@ export const Skills = (props: SkillsPropsType) => {
             <div className={style.container}>
                 {/* Title */}
                 <div className={style.title}>
-                    <h2>Skills</h2>
+                    <Fade direction='left'>
+                        <h2>Skills</h2>
+                    </Fade>
+                    
                 </div>
                 <div className={style.skillsContainer}>
                     

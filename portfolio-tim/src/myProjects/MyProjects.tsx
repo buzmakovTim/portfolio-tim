@@ -5,6 +5,7 @@ import style from './MyProjects.module.css'
 import { Project } from './project/Project'
 import { ProjectDetailed } from './project/ProjectDetailed'
 import {Link} from 'react-scroll'
+import { Fade } from "react-awesome-reveal";
 
 type MyProjectsPropsType = {
     projects: ProjectType[]
@@ -45,10 +46,10 @@ export const MyProjects: React.FC<MyProjectsPropsType> = ({projects}) => {
     const projectsToDisplay = () => {
         return (
 
-             <div className={style.projects}>
+             <div className={style.projects}>     
                  
                  {projectsComponents}
-            
+             
              </div>
 
         )}
@@ -57,12 +58,16 @@ export const MyProjects: React.FC<MyProjectsPropsType> = ({projects}) => {
 
     return (  
         <div>
+            
             <div className={style.myProjects} id='myProgects'>
                
                 <div className={style.container}>
                     
                     <div className={style.title}>
+                        <Fade direction='left'>
                         <h2>My Projects</h2>
+                        </Fade>
+                        
                     </div>
                     
                     <Route exact path={'/'} render={ ()=> projectsToDisplay()}/>
