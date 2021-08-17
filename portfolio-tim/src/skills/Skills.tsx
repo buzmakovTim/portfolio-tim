@@ -5,6 +5,7 @@ import { Fade } from "react-awesome-reveal";
 
 import { SkillType } from '../state/State'
 
+
 type SkillsPropsType = {
     skills: SkillType[]
 }
@@ -30,7 +31,10 @@ export const Skills = (props: SkillsPropsType) => {
                 {/* Title */}
                 <div className={style.title}>
                     <Fade direction='left'>
+                        
                         <h2>Skills</h2>
+                        
+                        
                     </Fade>
                     
                 </div>

@@ -40,14 +40,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    background-color: black;
+    /* background-color: black; */
 }
 
 .work .photoDiv span {
     transition: 0.5;
 }
 
-.work .photoDiv span:nth-child(1) {
+/* .work .photoDiv span:nth-child(1) {
     position: absolute;
     top: 0;
     left: 0;
@@ -63,7 +63,7 @@
     100% {
         transform: translateX(100%);
     }
-}
+} */
 
 /* .work:hover {
     background-color: rgb(51, 50, 50);
