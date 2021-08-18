@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio-tim/static/css/main.2da03cc1.chunk.css",
-    "main.js": "/portfolio-tim/static/js/main.6a063266.chunk.js",
-    "main.js.map": "/portfolio-tim/static/js/main.6a063266.chunk.js.map",
+    "main.css": "/portfolio-tim/static/css/main.2f2577f8.chunk.css",
+    "main.js": "/portfolio-tim/static/js/main.1afad756.chunk.js",
+    "main.js.map": "/portfolio-tim/static/js/main.1afad756.chunk.js.map",
     "runtime-main.js": "/portfolio-tim/static/js/runtime-main.7c0eb1cd.js",
     "runtime-main.js.map": "/portfolio-tim/static/js/runtime-main.7c0eb1cd.js.map",
-    "static/js/2.54ae19d0.chunk.js": "/portfolio-tim/static/js/2.54ae19d0.chunk.js",
-    "static/js/2.54ae19d0.chunk.js.map": "/portfolio-tim/static/js/2.54ae19d0.chunk.js.map",
+    "static/js/2.2bc79c8d.chunk.js": "/portfolio-tim/static/js/2.2bc79c8d.chunk.js",
+    "static/js/2.2bc79c8d.chunk.js.map": "/portfolio-tim/static/js/2.2bc79c8d.chunk.js.map",
     "static/js/3.aaca7b6b.chunk.js": "/portfolio-tim/static/js/3.aaca7b6b.chunk.js",
     "static/js/3.aaca7b6b.chunk.js.map": "/portfolio-tim/static/js/3.aaca7b6b.chunk.js.map",
     "index.html": "/portfolio-tim/index.html",
-    "static/css/main.2da03cc1.chunk.css.map": "/portfolio-tim/static/css/main.2da03cc1.chunk.css.map",
-    "static/js/2.54ae19d0.chunk.js.LICENSE.txt": "/portfolio-tim/static/js/2.54ae19d0.chunk.js.LICENSE.txt",
+    "static/css/main.2f2577f8.chunk.css.map": "/portfolio-tim/static/css/main.2f2577f8.chunk.css.map",
+    "static/js/2.2bc79c8d.chunk.js.LICENSE.txt": "/portfolio-tim/static/js/2.2bc79c8d.chunk.js.LICENSE.txt",
     "static/media/arrow-up.9d3a86d6.svg": "/portfolio-tim/static/media/arrow-up.9d3a86d6.svg",
     "static/media/arrowBack.b29723dc.png": "/portfolio-tim/static/media/arrowBack.b29723dc.png",
-    "static/media/Main.module.scss": "/portfolio-tim/static/media/backgroundImage.e46895db.jpg",
+    "static/media/Main.module.scss": "/portfolio-tim/static/media/backgroundImage.11ad0676.jpg",
     "static/media/checkWeight.d5c20cf8.png": "/portfolio-tim/static/media/checkWeight.d5c20cf8.png",
     "static/media/otherProject.9ad121ae.png": "/portfolio-tim/static/media/otherProject.9ad121ae.png",
+    "static/media/profileImage.6224e529.png": "/portfolio-tim/static/media/profileImage.6224e529.png",
     "static/media/react.2feb46ca.png": "/portfolio-tim/static/media/react.2feb46ca.png",
     "static/media/socialNetwork.a6a76888.png": "/portfolio-tim/static/media/socialNetwork.a6a76888.png",
     "static/media/todoList.d8f769c9.png": "/portfolio-tim/static/media/todoList.d8f769c9.png",
@@ -24,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7c0eb1cd.js",
-    "static/js/2.54ae19d0.chunk.js",
-    "static/css/main.2da03cc1.chunk.css",
-    "static/js/main.6a063266.chunk.js"
+    "static/js/2.2bc79c8d.chunk.js",
+    "static/css/main.2f2577f8.chunk.css",
+    "static/js/main.1afad756.chunk.js"
   ]
 }
