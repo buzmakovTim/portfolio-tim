@@ -6,6 +6,7 @@ import Particles from 'react-particles-js'
 //import Fade from 'react-reveal/Fade'
 import { Fade } from "react-awesome-reveal";
 import Tilt from 'react-parallax-tilt';
+import ReactTypingEffect from 'react-typing-effect'
 
 const particlesOptions = {
     particles: {
@@ -43,12 +44,21 @@ export const Main = () => {
                         <Fade cascade>
                                 {/* <span>Hi There</span> */}
                                 <h1>Tim Buzmakov</h1>
-                                <span className={style.typingDemo}>Software Developer. </span>
-                                <span className={style.basedInCanada}>based in Canada.</span>
+                                {/* <span className={style.typingDemo}>Software Developer. </span> */}
+                                
+                                <span>
+                                <ReactTypingEffect 
+                                    text="Software Developer"
+                                    speed={100}
+                                    className={style.softwareDeveloper}
+                                    />
+                                </span>
+                                <div className={style.spacing}/>
+                                <span className={style.basedInCanada}>based in Canada</span>
 
                                 {/* Button */}
                                 
-                                    
+                                <div>
                                 <Link
                                     to='myProjects'
                                     spy={true}
@@ -57,7 +67,9 @@ export const Main = () => {
                                     duration={500}
                                     >
                                     <div className={style.button}>PROJECTS</div>
-                                </Link>
+                                </Link>    
+                                </div>    
+                                
                         </Fade>    
                     
                         </Tilt>
