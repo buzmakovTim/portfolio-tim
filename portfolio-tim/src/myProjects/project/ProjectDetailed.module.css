@@ -97,3 +97,13 @@
 .block img:hover {
     opacity: 0.8;
 }
+
+@media screen and (max-width: 600px) {
+    .description,
+    .descriptionOne {
+        width: 100%;
+    }
+    .container img:first-of-type {
+        width: 100%;
+    }
+}

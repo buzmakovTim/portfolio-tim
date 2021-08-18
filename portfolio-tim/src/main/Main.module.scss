@@ -7,8 +7,6 @@
     background-image: url('./../img/backgroundImage.jpg');
     background-size: cover;
     background-position: center;
-    /* background-blend-mode: overlay; */
-    /* opacity: 0.5; */
 }
 .particles {
     position: absolute;
@@ -18,11 +16,6 @@
     bottom: 0;
     opacity: 0.2;
 }
-// .profileImage {
-//     position: absolute;
-//     right: 250px;
-//     bottom: -3px;
-// }
 .profileImage img {
     position: absolute;
     right: 250px;
@@ -32,23 +25,17 @@
 }
 
 .container {
-    /* background-color: rgba(180, 166, 147, 0.466); */
     width: 80%;
     margin: 0 auto;
     height: 100%;
     display: flex;
     align-items: center;
-    /* justify-content: space-evenly; */
     flex-wrap: wrap;
-    /* border: 1px solid; */
 }
 .text {
     position: relative;
     z-index: 2;
     text-align: left;
-    /* align-self: flex-start; */
-    // width: 580px;
-    // background-color: burlywood;
     color: white;
     font-size: 1.5em;
     font-family: $primaryFontFamily;
@@ -127,22 +114,6 @@ h1 {
     font-family: $primaryFontFamily;
     margin-bottom: 60px;
 }
-// .typingDemo {
-//     width: 559px;
-//     //animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
-//     white-space: nowrap;
-//     overflow: hidden;
-//     border-right: 2px solid;
-//     font-family: monospace;
-
-//     font-size: 2.6em;
-//     font-weight: 700;
-//     font-family: $primaryFontFamily;
-//     /* font-family: 'Rajdhani', sans-serif; */
-//     display: flex;
-//     /* margin: 0 auto; */
-//     margin-bottom: 30px;
-// }
 .basedInCanada {
     font-size: 1.4em;
     font-weight: 500;
@@ -203,7 +174,6 @@ h1 {
 }
 @media screen and (max-width: 1000px) {
     .main {
-        // background-position: 71% 100%;
         background-blend-mode: overlay;
     }
     .profileImage img {
@@ -216,14 +186,11 @@ h1 {
 }
 @media screen and (max-width: 900px) {
     .container {
-        // margin-top: 45px;
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
-        // font-size: 0.8em;
-        // color: blue;
     }
     .button {
         margin: 40px auto;
@@ -238,7 +205,6 @@ h1 {
 }
 @media screen and (max-width: 700px) {
     .container {
-        // margin-top: 45px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -252,27 +218,15 @@ h1 {
         flex-direction: column;
         justify-content: center;
         align-content: center;
-        // width: 350px;
     }
-    .button {
-        // margin: 40px auto;
-        // align-self: center;
-    }
-    // .typingDemo {
-    //     margin: 0 auto 30px;
-    //     width: 380px;
-    // }
 }
 @media screen and (max-width: 400px) {
     .container {
-        // margin-top: 45px;
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
-        // font-size: 0.8em;
-        // color: blue;
     }
     .text {
         font-size: 0.8em;
@@ -281,8 +235,4 @@ h1 {
         margin: 40px auto;
         font-size: 1.5em;
     }
-    // .typingDemo {
-    //     margin: 0 auto 30px;
-    //     width: 310px;
-    // }
 }
