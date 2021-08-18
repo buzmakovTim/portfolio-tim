@@ -4,6 +4,7 @@ import { Skill } from './skill/Skill'
 import { Fade } from "react-awesome-reveal";
 
 import { SkillType } from '../state/State'
+import { Separator } from '../common/Components/Separator';
 
 
 type SkillsPropsType = {
@@ -33,7 +34,7 @@ export const Skills = (props: SkillsPropsType) => {
                     <Fade direction='left'>
                         
                         <h2>Skills</h2>
-                        
+                        <Separator />
                         
                     </Fade>
                     

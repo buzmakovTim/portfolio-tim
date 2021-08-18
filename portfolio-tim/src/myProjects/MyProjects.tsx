@@ -6,6 +6,7 @@ import { Project } from './project/Project'
 import { ProjectDetailed } from './project/ProjectDetailed'
 import {Link} from 'react-scroll'
 import { Fade } from "react-awesome-reveal";
+import { Separator } from '../common/Components/Separator'
 
 type MyProjectsPropsType = {
     projects: ProjectType[]
@@ -66,7 +67,9 @@ export const MyProjects: React.FC<MyProjectsPropsType> = ({projects}) => {
                     <div className={style.title}>
                         <Fade direction='left'>
                         <h2>My Projects</h2>
+                        <Separator />
                         </Fade>
+                        
                         
                     </div>
                     

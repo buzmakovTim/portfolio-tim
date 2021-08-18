@@ -4,6 +4,7 @@ import emailjs from 'emailjs-com'
 import { Route, Redirect } from 'react-router-dom';
 import {Confirmation} from '../confirmationPage/Confirmation'
 import { Fade } from "react-awesome-reveal";
+import { Separator } from '../common/Components/Separator';
 
 export const Contact = () => {
 
@@ -57,6 +58,7 @@ export const Contact = () => {
                 <div className={style.title}>
                     <Fade direction='left'>
                         <h2>Contact</h2>
+                        <Separator />
                     </Fade>
                     
                 </div>
