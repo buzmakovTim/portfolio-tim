@@ -18,10 +18,19 @@
     bottom: 0;
     opacity: 0.2;
 }
-/* .titleContainer {
-    height: 100vh;
-    width: 80%;
-} */
+// .profileImage {
+//     position: absolute;
+//     right: 250px;
+//     bottom: -3px;
+// }
+.profileImage img {
+    position: absolute;
+    right: 250px;
+    bottom: 0;
+    width: 650px;
+    z-index: 0;
+}
+
 .container {
     /* background-color: rgba(180, 166, 147, 0.466); */
     width: 80%;
@@ -34,6 +43,8 @@
     /* border: 1px solid; */
 }
 .text {
+    position: relative;
+    z-index: 2;
     text-align: left;
     /* align-self: flex-start; */
     width: 450px;
@@ -170,7 +181,46 @@ h1 {
     }
 }
 
+@media screen and (max-width: 1800px) {
+    .profileImage img {
+        position: absolute;
+        right: 10px;
+        bottom: 0;
+        width: 650px;
+        z-index: 0;
+    }
+    .text {
+        z-index: 1;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .main {
+        // background-position: 71% 100%;
+        background-blend-mode: overlay;
+    }
+    .profileImage img {
+        display: none;
+        position: absolute;
+        right: 0px;
+        bottom: 0;
+        width: 650px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .container {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+}
 @media screen and (max-width: 700px) {
+    .container {
+        // margin-top: 45px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
     .text {
         font-size: 1em;
         text-align: center;
@@ -189,28 +239,24 @@ h1 {
     }
 }
 @media screen and (max-width: 400px) {
+    .container {
+        // margin-top: 45px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        // font-size: 0.8em;
+        // color: blue;
+    }
     .text {
         font-size: 0.8em;
-        width: 300px;
     }
     .button {
         margin: 40px auto;
     }
     .typingDemo {
         margin: 0 auto 30px;
-        width: 380px;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .container {
-        width: 100%;
-        justify-content: space-evenly;
-    }
-}
-@media screen and (max-width: 1000px) {
-    .main {
-        background-position: 71% 100%;
-        background-blend-mode: overlay;
+        width: 300px;
     }
 }

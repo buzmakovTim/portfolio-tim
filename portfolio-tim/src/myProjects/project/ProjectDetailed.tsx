@@ -17,7 +17,7 @@ export const ProjectDetailed: React.FC<ProjectDitailedPropsType> = ({project}) =
         return ( 
         <div className={style.back}>
             
-        <Link to='myProgects'
+        <Link to='myProjects'
                             spy={true}
                             smooth={true}
                             offset={-55}

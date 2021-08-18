@@ -28,7 +28,7 @@ export const MyProjects: React.FC<MyProjectsPropsType> = ({projects}) => {
         return <div className={style.navLink}>
 
                 <Link
-                    to='myProgects'
+                    to='myProjects'
                     spy={true}
                     smooth={true}
                     offset={-55}
@@ -60,7 +60,7 @@ export const MyProjects: React.FC<MyProjectsPropsType> = ({projects}) => {
     return (  
         <div>
             
-            <div className={style.myProjects} id='myProgects'>
+            <div className={style.myProjects} id='myProjects'>
                
                 <div className={style.container}>
                     

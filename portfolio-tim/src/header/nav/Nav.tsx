@@ -16,7 +16,7 @@ export const Nav = () => {
             {/* Scrollspy - Scrolling through the page and select right tab in the Nav menu */}
             <Scrollspy
               className={!showMenu ? style.nav : style.navShow}
-              items={["about", "myProgects", "skills", "contact"]} // items should match with ID for each component
+              items={["about", "myProjects", "skills", "contact"]} // items should match with ID for each component
               currentClassName={style.current}
               offset={-90}
             >    
@@ -31,7 +31,7 @@ export const Nav = () => {
                     >About</Link>
                 <Link
                     //activeClass='active'
-                    to='myProgects'
+                    to='myProjects'
                     spy={true}
                     smooth={true}
                     offset={-55}
