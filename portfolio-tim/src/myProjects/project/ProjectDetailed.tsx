@@ -116,12 +116,3 @@ export const ProjectDetailed: React.FC<ProjectDitailedPropsType> = ({project}) =
         </div>
     )
 }
-
-
-    // id: string,
-    // title: string,
-    // descriptionShort: string,
-    // descriptionLong: string,
-    // imageUrl: string,
-    // websiteLink: string,
-    // githubPage: string, 

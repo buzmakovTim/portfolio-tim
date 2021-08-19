@@ -90,6 +90,9 @@
     align-items: center;
 }
 
+.back {
+    margin: 0 5px;
+}
 .block img {
     height: 40px;
     width: 40px;
@@ -105,5 +108,11 @@
     }
     .container img:first-of-type {
         width: 100%;
+    }
+    .links {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
     }
 }
