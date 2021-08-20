@@ -20,7 +20,6 @@
     position: absolute;
     right: 250px;
     bottom: 0;
-    width: 650px;
     z-index: 0;
 }
 
@@ -94,13 +93,6 @@
     }
 }
 
-.photoDiv > img {
-    width: 300px;
-    position: relative;
-    top: 10px;
-    right: 20px;
-}
-
 h1 {
     font-size: 2.6em;
     font-weight: 400;
@@ -165,7 +157,7 @@ h1 {
         position: absolute;
         right: 10px;
         bottom: 0;
-        width: 650px;
+        height: 90vh;
         z-index: 0;
     }
     .text {
@@ -181,7 +173,7 @@ h1 {
         position: absolute;
         right: 0px;
         bottom: 0;
-        width: 650px;
+        height: 90vh;
     }
 }
 @media screen and (max-width: 900px) {
