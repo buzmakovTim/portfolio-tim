@@ -108,15 +108,15 @@ const State : StateType = {
         },
         {
             id: v1(),
-            title: 'Other Project',
-            descriptionOne: 'Some Description about this project. It will be much more information. Bla Bla bla',
-            descriptionTwo: 'Some Description about this project. It will be much more information. Bla Bla bla',
-            descriptionThree: 'Some Description about this project. It will be much more information. Bla Bla bla',
-            descriptionFour: 'Some Description about this project. It will be much more information. Bla Bla bla',
-            descriptionFive: 'Some Description about this project. It will be much more information. Bla Bla bla',
+            title: 'Learning Cards',
+            descriptionOne: 'Study project. Packs and Cards, for learning. Create your own cards and access others cards',
+            descriptionTwo: 'This project for study and practicing purpose. It is a single page application(SPA)',
+            descriptionThree: 'For practicing working with API and building React apps',
+            descriptionFour: 'Language: JavaScript/TypeScript',
+            descriptionFive: 'Please check out Git Repository or web page by clicking on icons below',
             imageUrl: otherProject,
-            websiteLink: '',
-            githubPage: '',
+            websiteLink: 'https://hrudkouski.github.io/friday_teamwork_project/#/packList',
+            githubPage: 'https://github.com/hrudkouski/friday_teamwork_project',
         },
     ]
 
