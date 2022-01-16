@@ -8,7 +8,14 @@ import { Separator } from '../common/Components/Separator';
 
 export const Contact = () => {
 
-    const SERVICE_ID = "service_xs6b29g";
+
+    // NEW Email account has been created specially for sending emails
+    // EmailJS service using for email from this form
+    // https://dashboard.emailjs.com/sign-in
+
+
+    // const SERVICE_ID = "service_xs6b29g";  old
+    const SERVICE_ID = "service_1wkz93t"; 
     const TEMPLATE_ID = "template_6phxbqq"
     const USER_ID = "user_JRTAR0aXUphMjjZUedUDN";
     //const USER_ID = "FAKE";
@@ -18,23 +25,23 @@ export const Contact = () => {
 
     function sendEmail(e: any) {
         
-    e.preventDefault();
-    
-    if(validated) {
-        emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
-      .then((result) => {
-          console.log(result.text);
-          emailConfirmation('sent')
-          e.target.reset();  
-      }, (error) => {
-          console.log(error.text);
-          emailConfirmation('failed')
-      });
-      
-    } else {
-        alert('Form not validated')
-    } 
-}
+        e.preventDefault();
+        
+        if(validated) {
+            emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
+        .then((result) => {
+            console.log(result.text);
+            emailConfirmation('sent')
+            e.target.reset();  
+        }, (error) => {
+            console.log(error.text);
+            emailConfirmation('failed')
+        });
+        
+        } else {
+            alert('Form not validated')
+        } 
+    }
 
     const emailConfirmation = (send: string) => {
         setEmailSent(send);
